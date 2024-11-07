@@ -37,18 +37,6 @@ pip install -U doc-master
 
 ## 🔧 Quick Start
 
-### Reading a Single File
-
-```python
-from doc_master import read_single_file
-
-# Read any supported file
-content = read_single_file("path/to/your/file.pdf")
-print(content)
-```
-
-### Processing Multiple Files
-
 ```python
 from doc_master import doc_master
 
@@ -57,15 +45,6 @@ results = doc_master(folder_path="path/to/folder", output_type="dict")
 
 # Or read a single file
 content = doc_master(file_path="path/to/file.docx")
-```
-
-### Using the AutoFileReader Class
-
-```python
-from doc_master import AutoFileReader
-
-reader = AutoFileReader()
-content = reader.read_file("path/to/file.xlsx", sheet_name="Sheet1")
 ```
 
 ## 📋 Requirements
