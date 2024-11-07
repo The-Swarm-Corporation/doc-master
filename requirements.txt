@@ -1,3 +1,9 @@
-torch
-zetascale
-swarms
+chardet
+python-magic
+pandas
+pypdf
+pytesseract
+PyYAML
+loguru
+Pillow
+python-docx
